@@ -3,6 +3,7 @@ spring:
     name: department-service
   config:
     import: "optional:configserver:http://localhost:8088"
+
 #    optional is for if the config server not available still
 #     the rest service will keep running
 
