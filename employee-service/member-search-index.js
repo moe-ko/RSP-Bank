@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.rspbank.departmentservice.config","c":"WebClientConfig","l":"employeeClient()"},{"p":"com.rspbank.departmentservice.config","c":"WebClientConfig","l":"employeeWebClient()"},{"p":"com.rspbank.departmentservice.config","c":"WebClientConfig","l":"WebClientConfig()","u":"%3Cinit%3E()"}];updateSearchResults();

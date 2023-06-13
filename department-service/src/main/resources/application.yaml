@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: department-service
+  config:
+    import: "optional:configserver:http://localhost:8088"
+
+#    optional is for if the config server not available still
+#     the rest service will keep running
+
+
+# v1 > to config/department-service.yaml
+#server:
+#  port: 8081
+
+#spring:
+#  application:
+#    name: department-service
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/

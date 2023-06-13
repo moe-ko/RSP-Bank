@@ -1,0 +1,8 @@
+server:
+  port: 8088
+
+#  by default, profiles is Git, by changing native for local
+#  by that all the configuration of services will go through this config only
+spring:
+  profiles:
+    active: native
